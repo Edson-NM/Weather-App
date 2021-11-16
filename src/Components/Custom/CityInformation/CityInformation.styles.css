@@ -1,0 +1,151 @@
+.dayWeather, .dayWeather h2, .dayWeather p {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2px;
+    background-color: #93b6bb;
+    opacity: 0.95;
+    color: #465366;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+
+.dayWeather button {
+    background-color: gray;
+}
+
+
+.nigthWeather, .nigthWeather h2, .nigthWeather p {
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2px;
+    background-color: #494E60;
+    opacity: 0.95;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.nigthWeather button {
+    background-color: #fff;
+}
+
+.details-card {
+    background-image: url("../../../Assets/Images/morning.jpg");
+    height: 70vh;
+}
+
+
+.clear-sky {
+    background-image: url("../../../Assets/Images/clear-sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.few-clouds {
+    background-image: url("../../../Assets/Images/few-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.scattered-clouds {
+    background-image: url("../../../Assets/Images/scattered-clouds.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.broken-clouds {
+    background-image: url("../../../Assets/Images/scattered-clouds.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.shower-rain {
+    background-image: url("../../../Assets/Images/shower-rain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;    
+    font-size: larger;
+}
+
+.rain {
+    background-image: url("../../../Assets/Images/shower-rain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;    
+    font-size: larger;
+}
+
+.thunderstorm {
+    background-image: url("../../../Assets/Images/thunderstorm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;    
+    font-size: larger;
+}
+
+.snowy {
+    background-image: url("../../../Assets/Images/snowy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.mist {
+    background-image: url("../../../Assets/Images/mist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+.fog {
+    background-image: url("../../../Assets/Images/mist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.overcast-clouds {
+    background-image: url("../../../Assets/Images/overcast-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+.other {
+    background-color: #99FEFF;
+    height: 70vh;
+    width: 80vw;
+    font-size: larger;
+}
+
+
+

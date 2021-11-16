@@ -1,0 +1,8 @@
+.loader {
+    width: 70px;
+    height: 70px;
+    border: 8px solid transparent;
+    border-top: 8px solid #FFFFFF;
+    border-radius: 50%;
+    animation: spin .5s linear infinite;
+}
