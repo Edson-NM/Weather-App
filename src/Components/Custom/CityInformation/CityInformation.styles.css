@@ -36,11 +36,6 @@
     background-color: #fff;
 }
 
-.details-card {
-    background-image: url("../../../Assets/Images/morning.jpg");
-    height: 70vh;
-}
-
 
 .clear-sky {
     background-image: url("../../../Assets/Images/clear-sky.jpg");
@@ -145,6 +140,37 @@
     height: 70vh;
     width: 80vw;
     font-size: larger;
+}
+
+.details-card p {
+    transition: .2s;
+}
+
+.details-card p:hover {
+    transform: scale(1.05);
+}
+
+/* MEDIA QUERIES_____________________________________________________________ */
+
+@media(min-width: 450px){
+    .dayWeather{
+        width: 60%;
+    }
+
+    .nigthWeather{
+        width: 60%;
+    }
+}
+
+@media(min-width: 640px){
+    .dayWeather{
+        width: 40%;
+    }
+
+    .nigthWeather{
+        width: 40%;
+    }
+
 }
 
 

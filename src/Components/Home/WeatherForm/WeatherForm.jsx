@@ -9,11 +9,12 @@ const WeatherForm = ({handleNameCityValue, handleSubmitValue, value}) => {
                 type="text" 
                 placeholder="Type name City here" 
                 value={value}
+                required
                 onChange={({target}) => handleNameCityValue(target)}
                 className="p-1 text-center rounded-l-md sm:w-2/5"
                 />
 
-                <input type="submit" value="Search" className="p-1 rounded-r-md bg-main_blue text-white sm:w-1/8"/>
+                <input type="submit" value="Search" className="p-1 rounded-r-md bg-main_blue text-white sm:w-1/8 hover:bg-sky_blue ease-linear duration-300"/>
             </form>
         </div>
     );

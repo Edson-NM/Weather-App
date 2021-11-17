@@ -31,7 +31,7 @@ const WeatherDetails = () => {
                     setLoader(false)
                 };
                 handleDetailData();
-            }, []);
+            }, [name]);
             
             // console.log(detailsData);
 
@@ -39,7 +39,7 @@ const WeatherDetails = () => {
     
 
     return (
-        <div className="bg-main_blue h-screen flex justify-center ">
+        <div className="bg-sky_blue h-screen flex justify-center pt-10">
 
             {loader && <Loader/>}
 
