@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
@@ -11,16 +11,16 @@ module.exports = {
       black: "#000",
       yellow: "#FBFF00",
       day: "#58BAC9",
+      softnigth: "#7C99AC",
       nigth: "#494E60",
       red: "#FF0000",
-
     },
-    screens:{
-      'xsm':'450px', // => @media (min-width: 450px) { ... }
-      'sm':'640px', // => @media (min-width: 640px) { ... }
-      'md':'768px', // => @media (min-width: 768px) { ... }
-      'lg':'1024px', // => @media (min-width: 1024px) { ... }
-       
+    screens: {
+      xsm: "450px", // => @media (min-width: 450px) { ... }
+      sm: "640px", // => @media (min-width: 640px) { ... }
+      md: "768px", // => @media (min-width: 768px) { ... }
+      lg: "1024px", // => @media (min-width: 1024px) { ... }
+      xl: "1200px", // ==> @media (min-width: 1300px) { ... }
     },
     extend: {},
   },
@@ -28,5 +28,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  
-}
+};

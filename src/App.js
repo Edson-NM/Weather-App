@@ -1,15 +1,12 @@
-import './App.css';
-
 //ROUTER
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 //Layout
-import MainLayout from "../src/Components/MainLayout/MainLayout.jsx"
+import MainLayout from "../src/Components/MainLayout/MainLayout.jsx";
 
 //PAGES
-import Home from './Pages/Home/Home';
-import WeatherDetails from "./Pages/WeatherDetails/WeatherDetails.jsx"
-
+import Home from "./Pages/Home/Home";
+import WeatherDetails from "./Pages/WeatherDetails/WeatherDetails.jsx";
 
 function App() {
   return (
@@ -17,15 +14,13 @@ function App() {
       <BrowserRouter>
         <Switch>
           <MainLayout>
-
             <Route path="/" exact>
-              <Home/>
+              <Home />
             </Route>
 
             <Route path="/details/:name" exact>
-              <WeatherDetails/>
+              <WeatherDetails />
             </Route>
-
           </MainLayout>
         </Switch>
       </BrowserRouter>
