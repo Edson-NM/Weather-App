@@ -12,7 +12,6 @@ const useGetBackImage = (weatherByLocation) => {
   useEffect(() => {
     setBackFormat();
     const iconValue = weatherByLocation && data?.weather[0].icon.slice(0, 2);
-    console.log(iconValue);
     switch (iconValue) {
       case "01":
         setBackFormat(images[2]);
